@@ -94,10 +94,10 @@
                 ></div>
               </div>
               <div class="btn btn-next" @click="changeIndex(++currentIndex)">
-                <i class="icofont iconfont">&#xe60d;</i>
+                <i class="icofont iconfont">&#xe623;</i>
               </div>
               <div class="btn btn-pre" @click="changeIndex(--currentIndex)">
-                <i class="icofont iconfont">&#xe60d;</i>
+                <i class="icofont iconfont">&#xe623;</i>
               </div>
             </div>
             <a href="javascript:;">
@@ -126,7 +126,7 @@
                   </div>
                   <div class="default" v-if="userName !== ''">
                     <div class="setting">
-                      <div class="icon"><i class="icofont">&#xe60d;</i></div>
+                      <div class="icon"><i class="icofont">&#xe60c;</i></div>
                     </div>
                     <div class="head-img-row">
                       <img
@@ -145,7 +145,7 @@
                       <div class="fn-item">
                         <a href="javascript:;">
                           <div class="ico">
-                            <i class="icofont iconfont">&#xe60d;</i>
+                            <i class="icofont iconfont">&#xe6db;</i>
                           </div>
                           <p class="fn-name">我的订单</p>
                         </a>
@@ -153,7 +153,7 @@
                       <div class="fn-item">
                         <a href="javascript:;">
                           <div class="ico">
-                            <i class="icofont iconfont">&#xe60d;</i>
+                            <i class="icofont iconfont">&#xe618;</i>
                           </div>
                           <p class="fn-name">我的收藏</p>
                         </a>
@@ -161,7 +161,7 @@
                       <div class="fn-item">
                         <a href="javascript:;">
                           <div class="ico">
-                            <i class="icofont iconfont">&#xe60d;</i>
+                            <i class="icofont iconfont">&#xe6ac;</i>
                           </div>
                           <p class="fn-name">抵用券</p>
                         </a>
@@ -171,7 +171,7 @@
                       <div class="fn-item">
                         <a href="javascript:;">
                           <div class="ico">
-                            <i class="icofont iconfont">&#xe60d;</i>
+                            <i class="icofont iconfont">&#xe624;</i>
                           </div>
                           <p class="fn-name">余额</p>
                         </a>
@@ -179,7 +179,7 @@
                       <div class="fn-item">
                         <a href="javascript:;">
                           <div class="ico">
-                            <i class="icofont iconfont">&#xe60d;</i>
+                            <i class="icofont iconfont">&#xe626;</i>
                           </div>
                           <p class="fn-name">更多</p>
                         </a>
@@ -269,14 +269,14 @@
             style="right: 0px"
             @click="changePosition('-1165px')"
           >
-            <i class="icofont iconfont icon-btn_right">&#xe60d;</i>
+            <i class="icofont iconfont icon-btn_right">&#xe623;</i>
           </div>
           <div
             class="btn btn-pre"
             style="left: 0px"
             @click="changePosition('0px')"
           >
-            <i class="icofont iconfont icon-btn_left">&#xe60d;</i>
+            <i class="icofont iconfont icon-btn_left">&#xe623;</i>
           </div>
         </div>
       </Frame>

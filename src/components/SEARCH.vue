@@ -124,6 +124,7 @@ export default {
       });
     },
     searchGoods(type, word) {
+      if(this.$store.state.searchWord === word) return;
       this.$store.commit("changeSearchWord", word);
       if (type === "link") {
         this.searchWord = word;

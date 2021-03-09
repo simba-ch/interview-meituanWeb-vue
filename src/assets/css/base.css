@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 2391052 */
+    src: url('//at.alicdn.com/t/font_2391052_3zsvwan83hs.eot');
+    src: url('//at.alicdn.com/t/font_2391052_3zsvwan83hs.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_2391052_3zsvwan83hs.woff2') format('woff2'),
+    url('//at.alicdn.com/t/font_2391052_3zsvwan83hs.woff') format('woff'),
+    url('//at.alicdn.com/t/font_2391052_3zsvwan83hs.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_2391052_3zsvwan83hs.svg#iconfont') format('svg');
+  }
+
+.icofont {
+    font-family: iconfont!important;
+}
+
+body {
+    color: #999;
+    background-color: #F8F8F8;
+}
+
+.center {
+    width: 1190px;
+    margin: 0 auto;
+}
+
+.space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-v-center {
+    display: flex;
+    align-items: center;
+}
+
+.bg-color-body {
+    background-color: #F8F8F8;
+}
+
+.color-orange {
+    color: #FE8C00;
+}
+
+.bg-color-white {
+    background-color: #fff;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}

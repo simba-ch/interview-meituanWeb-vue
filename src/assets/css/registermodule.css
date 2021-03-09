@@ -1,0 +1,161 @@
+.register-module {
+    margin: 0 auto 30px;
+    padding-top: 30px;
+    width: 980px;
+    min-height: 300px;
+}
+
+.register-module .form-field {
+    position: relative;
+    padding: 8px 0 8px 110px;
+}
+
+.register-module .form-field label {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    padding-top: 6px;
+    font-size: 14px;
+    text-align: right;
+    color: #333;
+}
+
+.register-module .form-field input {
+    width: 248px;
+    height: 24px;
+    padding: 5px;
+    border: 1px solid #aaa;
+    line-height: 24px;
+    vertical-align: top;
+    outline: none;
+}
+
+.register-module .form-field input.warn {
+    border-color: #f76120;
+}
+
+.register-module .form-field .pw-strength {
+    width: 260px;
+    position: relative;
+    background: #eee;
+}
+
+.register-module .form-field .pw-strength-bar {
+    height: 20px;
+    transition: all .4s linear;
+    width: 0;
+}
+
+.register-module .form-field .pw-strength-letter {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.register-module .form-field .pw-strength-letter span {
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    width: 85px;
+    border-right: 2px solid #fff;
+    color: #fff;
+}
+
+.register-module .form-field .pw-strength-letter span:last-child {
+    border-right: 0;
+}
+
+.register-module .form-field input:focus {
+    border-color: #FE8C00;
+}
+
+.register-module .form-field .unitive-tip {
+    display: inline-block;
+    margin-left: 4px;
+    padding: 6px 0;
+    line-height: 24px;
+    font-size: 12px;
+    color: #999;
+    vertical-align: top;
+    zoom: 1;
+}
+
+.register-module .form-field .inline-tip {
+    display: inline-block;
+    margin-left: 4px;
+    padding: 6px 0 0;
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+    vertical-align: top;
+    zoom: 1;
+}
+
+.register-module .form-field .tip-status {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+    font-size: 20px;
+    position: relative;
+    top: 3px;
+}
+
+.register-module .term {
+    position: relative;
+    padding: 3px 10px 3px 110px;
+    margin: 0 auto 8px;
+    zoom: 1;
+}
+
+.register-module .term a {
+    color: #FE8C00;
+    text-decoration: none;
+}
+
+.register-module .form-field .pw-strength-bar.weak {
+    width: 85px;
+    background: #f76120;
+}
+
+.register-module .form-field .pw-strength-bar.middle {
+    width: 172px;
+    background: #ff8900;
+}
+
+.register-module .form-field .pw-strength-bar.strong {
+    width: 260px;
+    background: #5bab3c;
+}
+
+.register-module .submit {
+    padding: 7px 20px 6px;
+    color: #222;
+    background-image: linear-gradient(135deg, #FFD000 0, #FFBD00 100%);
+    border-width: 0;
+    box-shadow: 0 2px 1px rgba(191, 105, 0, .15);
+    background-size: 100%;
+    outline: none;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    text-align: center;
+    border-style: solid;
+    background-repeat: repeat-x;
+    border-radius: 2px;
+    user-select: none;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+.color-warn {
+    color: #f76120;
+}
+
+.register-module .form-field .inline-tip.color-success {
+    color: #5bab3c;
+}

@@ -1,0 +1,90 @@
+.bg-blank {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    font: 400 14px/1.5 'Hiragino Sans GB','WenQuanYi Micro Hei',tahoma,sans-serif;
+    color: #666;
+    background-color: #fff;
+}
+
+.login-page header {
+    width: 980px;
+    height: auto;
+    margin: 40px auto 30px;
+    position: relative;
+}
+
+.login-page .site-logo {
+    margin: 0;
+    width: 82px;
+    height: 54px;
+    background-position: -188px -808px;
+    background-image: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/sp-normal.2ee5c09.png);
+    background-repeat: no-repeat;
+    background-size: initial;
+    float: left;
+    display: block;
+    display: inline;
+    text-indent: -9999px;
+    overflow: hidden;
+}
+
+.login-page .site-logo {
+    background: url(//s0.meituan.net/bs/file/?f=fe-sso-fs:build/assets/logo.6a89007.png) no-repeat;
+    background-position: 0!important;
+    background-size: contain!important;
+    width: 130px;
+    height: 47px;
+}
+
+.cf::after {
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    content: '';
+}
+
+.site-body {
+    margin: 0 auto 70px;
+    width: 980px;
+}
+
+.pg-unitive-login {
+    float: left;
+    height: 370px;
+    margin: 0 115px 0 0;
+    width: 480px;
+}
+
+.login-page footer {
+    margin: 0 auto 30px;
+    clear: both;
+    width: 980px;
+    font-size: 12px;
+    color: #999;
+}
+
+.login-page footer .site-info-nav {
+    margin-bottom: 20px;
+    padding: 12px 0;
+    border-top: 1px solid #EEE;
+    border-bottom: 1px solid #EEE;
+}
+
+.login-page footer .site-info-nav li {
+    float: left;
+    margin: 5px 0;
+    padding: 0 16px;
+    line-height: 14px;
+    border-right: 1px solid #EEE;
+}
+
+.login-page footer .site-info-nav .first {
+    padding-left: 0;
+}
+
+.login-page footer .site-info-nav .last {
+    border-right: none;
+}

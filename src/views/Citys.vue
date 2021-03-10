@@ -257,10 +257,10 @@ export default {
       this.$router.push("/");
     },
     setWCity(num) {
-      if (num % 13) {
-        this.wCity = Math.ceil(num / 13) * 90 + "px";
+      if (num % 12) {
+        this.wCity = Math.ceil(num / 12) * 90 + "px";
       } else {
-        this.wCity = Math.floor(num / 13) * 90 + "px";
+        this.wCity = Math.floor(num / 12) * 90 + "px";
       }
     },
   },

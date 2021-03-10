@@ -16,7 +16,10 @@
                   @mouseenter="enter(type)"
                   @mouseleave="leave()"
                 >
-                  <i class="iconfontNew hc-icon-foodNew" :class="typeIcos[name]">
+                  <i
+                    class="iconfontNew hc-icon-foodNew"
+                    :class="typeIcos[name]"
+                  >
                     <span class="nav-text-wrapper">
                       <span>
                         <a href="javascript:;" class="link nav-text">
@@ -1013,6 +1016,7 @@ export default {
       },
       currentMovieList: [
         {
+          type: "hot",
           img:
             "https://p0.meituan.net/movie/48774506dc0e68805bc25d2cd087d1024316392.jpg@214w_297h_1e_1c",
           score: 9.5,
@@ -1022,6 +1026,7 @@ export default {
           mark: false,
         },
         {
+          type: "hot",
           img:
             "https://p0.meituan.net/movie/8a1ad4ec0d81f240e4d8c2d1b10c2ec53475644.jpg@214w_297h_1e_1c",
           score: 9.1,
@@ -1031,6 +1036,7 @@ export default {
           mark: false,
         },
         {
+          type: "hot",
           img:
             "https://p1.meituan.net/movie/ece9ff81e6f0af2c859aa151e42a33312706648.jpg@214w_297h_1e_1c",
           score: 8.8,
@@ -1040,6 +1046,7 @@ export default {
           mark: "https://s0.meituan.net/bs/fe-web-meituan/25e6614/img/imax.png",
         },
         {
+          type: "hot",
           img:
             "https://p1.meituan.net/moviemachine/9be184648a639e0976887c9fd63385b36499634.jpg@214w_297h_1e_1c",
           score: 9.1,
@@ -1050,6 +1057,7 @@ export default {
             "https://s0.meituan.net/bs/fe-web-meituan/25e6614/img/imax3d.png",
         },
         {
+          type: "hot",
           img:
             "https://p1.meituan.net/movie/9ef2f7d8d6f11c55723d7be5fa77218d1022103.jpg@214w_297h_1e_1c",
           score: 8.6,
@@ -1060,6 +1068,7 @@ export default {
             "https://s0.meituan.net/bs/fe-web-meituan/25e6614/img/imax3d.png",
         },
         {
+          type: "hot",
           img:
             "https://p1.meituan.net/movie/12b0e9d3c645cda41a9c787066d52279388947.jpg@214w_297h_1e_1c",
           score: 8.5,
@@ -1069,6 +1078,7 @@ export default {
           mark: false,
         },
         {
+          type: "hot",
           img:
             "https://p0.meituan.net/movie/72291e1cbc83311656e01e828ca79ddd2106074.jpg@214w_297h_1e_1c",
           score: 8.9,
@@ -1078,6 +1088,7 @@ export default {
           mark: "https://s0.meituan.net/bs/fe-web-meituan/9d1997a/img/3d.png",
         },
         {
+          type: "hot",
           img:
             "https://p0.meituan.net/moviemachine/6766681dc599e1964e9acbf86391207377187.jpg@214w_297h_1e_1c",
           score: 8.7,
@@ -1088,6 +1099,7 @@ export default {
             "https://s0.meituan.net/bs/fe-web-meituan/25e6614/img/imax3d.png",
         },
         {
+          type: "hot",
           img:
             "https://p0.meituan.net/moviemachine/778ef027d0fe90fd27448d8369d4cf9e2820477.jpg@214w_297h_1e_1c",
           score: 7.9,
@@ -1097,6 +1109,7 @@ export default {
           mark: false,
         },
         {
+          type: "hot",
           img:
             "https://p1.meituan.net/moviemachine/32f40a66d85c24bee19c57d86773520e14797735.jpg@214w_297h_1e_1c",
           score: false,
